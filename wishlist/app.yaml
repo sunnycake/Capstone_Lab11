@@ -1,0 +1,2 @@
+runtime: python 37
+entrypoint: gunicorn -b $PORT wishlist.wsgi
